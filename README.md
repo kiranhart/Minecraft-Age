@@ -1,3 +1,5 @@
-# Create T3 App
+# Minecraft Version Age
 
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
+A quick way to check how old a Minecraft version is...
+
+Live Site: https://minecraftage.vercel.app/
