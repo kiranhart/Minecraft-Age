@@ -27,7 +27,7 @@ const Home: NextPage = () => {
                         return (
                             <div key={majorVersion.title}>
                                 <h1 className='font-black text-3xl text-gray-700'>
-                                    {majorVersion.title} ({majorVersion.version})
+                                    {majorVersion.title} ({majorVersion.version === 1.1 ? majorVersion.version.toFixed(2) : majorVersion.version})
                                 </h1>
                                 <ul className='my-3'>
                                     {majorVersion.versions.map((version) => {
